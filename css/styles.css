@@ -29,10 +29,19 @@ h3 {
 }
 
 h1,
-h2 {
-    font-size: 2.5rem;
+h2,
+h3 {
     color: var(--Dark-grayishBlue);
     padding: 10px;
+}
+
+h1,
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
 }
 
 p {
@@ -41,7 +50,8 @@ p {
     color: var(--Grayish-Blue);
 }
 /* Header section */
-header {
+header,
+main {
     width: 100%;
     margin-bottom: 50px;
 }
@@ -63,7 +73,7 @@ header {
     width: 95px;
 }
 
-header img {
+img {
     width: 100%;
 }
 
@@ -97,6 +107,24 @@ button:hover {
     background-color: var(--Light-blue);
 }
 /* End header section */
+
+/* Main section */
+/* FIRST SECTION  */
+.first-section {
+    margin-bottom: 50px;
+}
+
+.first-section--description,
+.first-section--content {
+    width: 90%;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.image-computer {
+    width: 270px;
+    margin: 0 auto;
+}
 /* Footer section */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
