@@ -28,6 +28,18 @@ h3 {
     font-weight: 600;
 }
 
+h1,
+h2 {
+    font-size: 2.5rem;
+    color: var(--Dark-grayishBlue);
+    padding: 10px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--Grayish-Blue);
+}
 /* Header section */
 header {
     width: 100%;
@@ -55,6 +67,31 @@ header img {
     width: 100%;
 }
 
+.header-content--container,
+.header-buttons--container {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+button {
+    min-width: 275px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+.ios-button {
+    background-color: var(--Strong-cyan);
+}
+
+.mac-button {
+    background-color: var(--Light-blue);
+}
+/* End header section */
 /* Footer section */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
