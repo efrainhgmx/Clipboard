@@ -84,7 +84,7 @@ img {
 }
 
 button {
-    min-width: 275px;
+    width: 275px;
     height: 40px;
     margin-bottom: 15px;
     border: none;
