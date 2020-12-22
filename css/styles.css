@@ -50,8 +50,7 @@ p {
     color: var(--Grayish-Blue);
 }
 /* Header section */
-header,
-main {
+header {
     width: 100%;
     margin-bottom: 50px;
 }
@@ -78,9 +77,9 @@ img {
 }
 
 .header-content--container,
-.header-buttons--container {
+.buttons--container {
     width: 90%;
-    margin: 20px auto;
+    margin: 30px auto;
     text-align: center;
 }
 
@@ -109,14 +108,20 @@ button:hover {
 /* End header section */
 
 /* Main section */
-/* FIRST SECTION  */
+main {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
 .first-section,
 .second-section {
     margin-bottom: 50px;
 }
 
 .section--description,
-.section--content {
+.section--content,
+.third-section,
+.four-section {
     width: 90%;
     margin: 25px auto;
     text-align: center;
@@ -131,6 +136,16 @@ button:hover {
 .icon-section {
     width: 60px;
     margin: 80px auto 25px;
+}
+
+.third-section figure {
+    width: 95px;
+    padding: 5px;
+    margin: 35px auto;
+}
+
+.third-section figure:first-child {
+    width: 125px;
 }
 /* Footer section */
 .attribution { font-size: 11px; text-align: center; }
