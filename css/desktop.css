@@ -16,3 +16,33 @@ button {
     height: 275px;
     background-image: url(../images/bg-header-desktop.png);
 }
+
+.section--description,
+.section--conten {
+    width: 70%;
+}
+
+.section-content--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section--content {
+    width: 45%;
+    text-align: left;
+}
+
+.section--content p {
+    font-size: 1.4rem;
+}
+
+.image-computer, 
+.image-devices {
+    width: 650px;
+}
+
+.image-computer {
+    position: relative;
+    left: -30px;
+}
