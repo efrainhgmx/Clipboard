@@ -148,5 +148,47 @@ main {
     width: 125px;
 }
 /* Footer section */
-.attribution { font-size: 11px; text-align: center; }
+footer {
+    width: 100%;
+    padding-top: 25px;
+    background-color: #f5f6f8;
+}
+
+footer p {
+    margin: 25px 0;
+    color: var(--Dark-grayishBlue);
+}
+
+footer p:hover {
+    cursor: pointer;
+    color: var(--Strong-cyan);
+}
+
+.footer-content--container {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.footer-logo--container {
+    width: 35px;
+    margin: 15px auto;
+}
+
+.footer-social--icons {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social--icons figure {
+    width: 25px;
+    margin: 10px;
+}
+
+.footer-social--icons figure img:hover {
+    cursor: pointer;
+}
+.attribution { font-size: 12px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
