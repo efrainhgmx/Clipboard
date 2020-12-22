@@ -110,20 +110,27 @@ button:hover {
 
 /* Main section */
 /* FIRST SECTION  */
-.first-section {
+.first-section,
+.second-section {
     margin-bottom: 50px;
 }
 
-.first-section--description,
-.first-section--content {
+.section--description,
+.section--content {
     width: 90%;
     margin: 25px auto;
     text-align: center;
 }
 
-.image-computer {
-    width: 270px;
+.image-computer,
+.image-devices {
+    width: 280px;
     margin: 0 auto;
+}
+
+.icon-section {
+    width: 60px;
+    margin: 80px auto 25px;
 }
 /* Footer section */
 .attribution { font-size: 11px; text-align: center; }
