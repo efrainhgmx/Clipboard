@@ -6,6 +6,6 @@ Proyecto web para Clipboard usando **HTML y CSS** aplicando animaciones web y t�
 
 Project from [Fronted Mentor](https://www.frontendmentor.io/profile/efrainhgmx "Fronted Mentor")
 
-Code by **Efraín Hernández - Frontend Developer 2021  &COPY; ** 
+Code by **Efraín Hernández - Frontend Developer 2021  &COPY;** 
 
 Puedes ver el proyecto [AQUI](https://efrainhgmx.github.io/Clipboard/ "AQUI")
