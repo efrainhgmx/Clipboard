@@ -6,6 +6,11 @@ Proyecto web para Clipboard usando **HTML y CSS** aplicando animaciones web y t�
 
 Project from [Fronted Mentor](https://www.frontendmentor.io/profile/efrainhgmx "Fronted Mentor")
 
+## Ressponsive:
+- Mobile: 320px.
+- Tablet: 768px.
+- Desktop: 1024px.
+
 Code by **Efraín Hernández - Frontend Developer 2021  &COPY;** 
 
 Puedes ver el proyecto [AQUI](https://efrainhgmx.github.io/Clipboard/ "AQUI")
